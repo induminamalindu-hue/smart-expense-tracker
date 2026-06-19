@@ -1,20 +1,61 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# 💰 Smart Expense Tracker
 
-# Run and deploy your AI Studio app
+Smart Expense Tracker is a modern, responsive web application designed to help users effortlessly track and manage their daily incomes and expenses. It features visual data representation, multi-language support, and clean categorization to offer deep insights into spending habits.
 
-This contains everything you need to run your app locally.
+## ✨ Features
 
-View your app in AI Studio: https://ai.studio/apps/e9495135-41d1-4ca5-a30a-59aece12e728
+- **Dashboard Overview:** Instantly view total income, total expenses, and the current net balance.
+- **Transaction Management:** Easily add, update, and delete financial records.
+- **Interactive Charts:** Beautiful and dynamic data visualizations to understand spending patterns at a glance.
+- **Multi-language Support:** Seamless switching between Sinhala, English, and other languages.
+- **Responsive UI:** Fully optimized for mobile, tablet, and desktop viewports.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Frontend:** React.js, TypeScript, Tailwind CSS
+- **Build Tool:** Vite
+- **State Management & Routing:** Modern JavaScript/TypeScript Tools
+
+## 🚀 Local Setup & Installation
+
+Follow these steps to set up and run the project locally on your machine:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/induminamalindu-hue/smart-expense-tracker.git](https://github.com/induminamalindu-hue/smart-expense-tracker.git)
+   cd smart-expense-tracker
+``
+
+1. **Install Dependencies:**
+
+Bash
+```
+npm install
+```
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+2. **Start the Development Server:**
+
+Bash
+```
+npm run dev
+```
+
+3. **Open in Browser:**
+
+Navigate to http://localhost:3000/ (or the port specified in your terminal) to view the app.
+
+## 🌐 Live Deployment
+This project is fully deployed and running live on Vercel.
+
+## Developed by [Malindu Indumina](https://github.com/induminamalindu-hue)
+
+
+### 🆙 How to Update This to GitHub:
+
+After saving the file, type and enter these 3 commands one by one in your VS Code terminal. This will instantly update your GitHub page and automatically trigger a fast deployment update on Vercel:
+
+```cmd
+git add README.md
+git commit -m "Added professional English README"
+git push origin main
