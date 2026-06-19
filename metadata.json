@@ -1,0 +1,6 @@
+{
+  "name": "AI Voice Invoice Extractor",
+  "description": "An elegant, premium AI Voice Invoice Extractor and Ledger. Instantly parse unstructured text or speech in Sinhala, Singlish, or English using Gemini to extract billing data into a modern ledger dashboard.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
